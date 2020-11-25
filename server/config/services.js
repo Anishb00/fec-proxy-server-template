@@ -43,17 +43,17 @@
 module.exports = {
   service1: {
     api: '/photo-gallery',
-    url: 'http://52.53.198.39:3001/',
+    url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
   service2: {
     api: '/calendar',
-    url: 'http://18.191.211.232:3002/',
+    url: 'http://localhost:3002',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/reviews',
-    url: 'http://ec2-3-86-225-93.compute-1.amazonaws.com:3003/',
+    url: 'http://localhost:3003',
     bundle: 'bundle.js',
   }
 };
